@@ -1,0 +1,31 @@
+.container_big-card {
+    border: solid white 2px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 400px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.big-card_photo {
+    border-radius: 10px;
+}
+.big-card_photo > img {
+    height: 200px;
+    min-height: 200px;
+    width: 396px;
+    min-width: 396px;
+    border-radius: 8px 8px 0px 0px;
+}
+.big-card_title > a > h1 {
+    margin-left: 10px;
+}
+.big-card_description > p {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: gray;
+}
